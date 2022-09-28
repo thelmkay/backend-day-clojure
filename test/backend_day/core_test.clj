@@ -3,15 +3,15 @@
             [backend-day.core :refer :all]))
 
 
-(deftest test-advent-day-1-basic
+(deftest test-solution-day-1-basic
   (testing "R2 L3 5 blocks away"
     (is (= 5 (solution ["R2","L3"] :N [0,0])))))
 
-(deftest test-advent-day-1-basic-2
+(deftest test-solution-day-1-basic-2
   (testing "R2 R2 R2 2 blocks south"
     (is (= 2 (solution ["R2","R2","R2"] :N [0,0])))))
 
-(deftest test-advent-day-1-basic-3
+(deftest test-solution-day-1-basic-3
   (testing "R5 L5 R5 R3 12 blocks away"
     (is (= 12 (solution ["R5","L5","R5","R3"] :N [0,0])))))
 
